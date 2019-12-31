@@ -1,3 +1,5 @@
+#!/bin/bash
+
 java -Djava.security.egd=file:/dev/./urandom -jar /app.jar &
 #./mvnw spring-boot:run -Dserver.port=8080 &
  
