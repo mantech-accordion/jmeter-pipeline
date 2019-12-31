@@ -6,15 +6,15 @@
     <name>jmeter</name>
     <packaging>jar</packaging>
     <description>Intro to Performance testing using JMeter</description>
+             <!--
 
     <parent>
         <groupId>com.baeldung</groupId>
         <artifactId>parent-boot-1</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-             <!--
         <relativePath>../parent-boot-1</relativePath>
--->
     </parent>
+-->
 
     <dependencies>
         <dependency>
