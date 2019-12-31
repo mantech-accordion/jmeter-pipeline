@@ -1,7 +1,5 @@
-#java -Djava.security.egd=file:/dev/./urandom -jar /app.jar
-
-
-./mvnw spring-boot:run -Dserver.port=8080 &
+java -Djava.security.egd=file:/dev/./urandom -jar /app.jar &
+#./mvnw spring-boot:run -Dserver.port=8080 &
  
 while ! httping -qc1 http://localhost:8080 ; do sleep 1 ; done
  
